@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D30ED87145B965700D6CBC8 /* libOAuthConsumer_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA009971163C1CE00C23370 /* libOAuthConsumer_iPhone.a */; };
 		9CA007CA1163B53A00C23370 /* RDLinkedInAuthorizationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA007C01163B53A00C23370 /* RDLinkedInAuthorizationController.h */; };
 		9CA007CB1163B53A00C23370 /* RDLinkedInAuthorizationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA007C11163B53A00C23370 /* RDLinkedInAuthorizationController.m */; };
 		9CA007CC1163B53A00C23370 /* RDLinkedInEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA007C21163B53A00C23370 /* RDLinkedInEngine.h */; };
@@ -17,27 +18,26 @@
 		9CA007D11163B53A00C23370 /* RDLinkedInRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA007C71163B53A00C23370 /* RDLinkedInRequestBuilder.m */; };
 		9CA007D21163B53A00C23370 /* RDLinkedInResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA007C81163B53A00C23370 /* RDLinkedInResponseParser.h */; };
 		9CA007D31163B53A00C23370 /* RDLinkedInResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA007C91163B53A00C23370 /* RDLinkedInResponseParser.m */; };
-		9CA008281163B67E00C23370 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA008271163B67E00C23370 /* libxml2.dylib */; };
 		9CA008B51163BCF800C23370 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA008B31163BCF800C23370 /* NSString+UUID.h */; };
 		9CA008B61163BCF800C23370 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA008B41163BCF800C23370 /* NSString+UUID.m */; };
-		9CA009981163C1D300C23370 /* libOAuthConsumer_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA009971163C1CE00C23370 /* libOAuthConsumer_iPhone.a */; };
 		AA747D9F0F9514B9006C5449 /* LinkedInClientLibrary_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LinkedInClientLibrary_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D00AC3CE14A191D2005E19D8 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D00AC3CD14A191D2005E19D8 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8D30ED85145B964F00D6CBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA0098F1163C1CE00C23370 /* OAuthConsumer-iPhoneLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = OAuthLib;
+		};
 		9CA009961163C1CE00C23370 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9CA0098F1163C1CE00C23370 /* OAuthConsumer-iPhoneLib.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = OAuthLib;
-		};
-		9CA009991163C1DB00C23370 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9CA0098F1163C1CE00C23370 /* OAuthConsumer-iPhoneLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = OAuthLib;
 		};
 /* End PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		9CA007C71163B53A00C23370 /* RDLinkedInRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDLinkedInRequestBuilder.m; sourceTree = "<group>"; };
 		9CA007C81163B53A00C23370 /* RDLinkedInResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDLinkedInResponseParser.h; sourceTree = "<group>"; };
 		9CA007C91163B53A00C23370 /* RDLinkedInResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDLinkedInResponseParser.m; sourceTree = "<group>"; };
-		9CA008271163B67E00C23370 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		9CA008B31163BCF800C23370 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
 		9CA008B41163BCF800C23370 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		9CA0098F1163C1CE00C23370 /* OAuthConsumer-iPhoneLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "OAuthConsumer-iPhoneLib.xcodeproj"; path = "../OAuthConsumeriPhoneLib/OAuthConsumer-iPhoneLib.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		AA747D9E0F9514B9006C5449 /* LinkedInClientLibrary_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedInClientLibrary_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D00AC3CD14A191D2005E19D8 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libLinkedInClientLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLinkedInClientLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,9 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00AC3CE14A191D2005E19D8 /* libxml2.dylib in Frameworks */,
+				8D30ED87145B965700D6CBC8 /* libOAuthConsumer_iPhone.a in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				9CA008281163B67E00C23370 /* libxml2.dylib in Frameworks */,
-				9CA009981163C1D300C23370 /* libOAuthConsumer_iPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +87,7 @@
 		0867D691FE84028FC02AAC07 /* LinkedInClientLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				D00AC3CD14A191D2005E19D8 /* libxml2.dylib */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -99,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
-				9CA008271163B67E00C23370 /* libxml2.dylib */,
 				9CA0098F1163C1CE00C23370 /* OAuthConsumer-iPhoneLib.xcodeproj */,
 			);
 			name = Frameworks;
@@ -171,7 +171,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9CA0099A1163C1DB00C23370 /* PBXTargetDependency */,
+				8D30ED86145B964F00D6CBC8 /* PBXTargetDependency */,
 			);
 			name = LinkedInClientLibrary;
 			productName = LinkedInClientLibrary;
@@ -185,7 +185,11 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LinkedInClientLibrary" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* LinkedInClientLibrary */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -229,10 +233,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9CA0099A1163C1DB00C23370 /* PBXTargetDependency */ = {
+		8D30ED86145B964F00D6CBC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OAuthLib;
-			targetProxy = 9CA009991163C1DB00C23370 /* PBXContainerItemProxy */;
+			targetProxy = 8D30ED85145B964F00D6CBC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -253,6 +257,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../OAuthConsumeriPhoneLib",
 					"/usr/include/libxml2/**",
+					"/opt/local/include/libxml2/**",
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
@@ -264,6 +269,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = LinkedInClientLibrary;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -279,6 +285,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../OAuthConsumeriPhoneLib",
 					"/usr/include/libxml2/**",
+					"/opt/local/include/libxml2/**",
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
@@ -290,6 +297,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = LinkedInClientLibrary;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};

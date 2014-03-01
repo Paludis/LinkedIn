@@ -171,7 +171,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectReferences = (
@@ -245,6 +249,7 @@
 				INFOPLIST_FILE = "Demo-Info.plist";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = Demo;
+				SDKROOT = iphoneos5.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../LinkedInClientLibrary";
 			};
 			name = Debug;
@@ -260,6 +265,7 @@
 				INFOPLIST_FILE = "Demo-Info.plist";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = Demo;
+				SDKROOT = iphoneos5.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../LinkedInClientLibrary";
 			};
 			name = Release;

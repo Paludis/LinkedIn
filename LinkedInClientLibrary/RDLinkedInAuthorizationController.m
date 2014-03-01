@@ -88,9 +88,9 @@
 #pragma mark private
 
 - (void)cancel {
-	if( [rdDelegate respondsToSelector:@selector(linkedInAuthorizationControllerCanceled:)] ) {
+	/*if( [rdDelegate respondsToSelector:@selector(linkedInAuthorizationControllerCanceled:)] ) {
     [rdDelegate linkedInAuthorizationControllerCanceled:self];
-  }
+  }*/
 	[self performSelector:@selector(dismissModalViewControllerAnimated:) withObject:(id)kCFBooleanTrue afterDelay:0.0];
 }
 
